@@ -1,0 +1,43 @@
+header{
+    background-color: rgb(254, 239, 230);
+}
+.logo h1{
+    font-size: 2rem;
+    color: #EB662B;
+    font-weight: 600;
+    cursor: pointer;
+}
+nav ul li a{
+    text-transform: capitalize;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+nav ul li a:hover{
+    color: #EB662B;
+}
+nav ul li a.active{
+    color: #EB662B;
+}
+nav ul li a.active::after{
+    content:"";
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    height: 2px;
+    background-color: #EB662B;
+}
+.auth-buttons button{
+    text-transform: capitalize;
+}
+.auth-buttons .singup-btn{
+    border: 1px solid #EB662B;
+    padding: 5px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.auth-buttons option {
+    color: #EB662B;
+    font-weight: 600;
+}

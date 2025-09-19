@@ -1,0 +1,14 @@
+.popular h2{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000;
+    text-transform: capitalize;
+    font-family: Inter, sans-serif;
+}
+.popular a{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000;
+    text-transform: capitalize;
+    font-family: Inter, sans-serif;
+}

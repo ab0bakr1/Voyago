@@ -1,0 +1,26 @@
+.why h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000;
+    text-transform: capitalize;
+    font-family: Inter, sans-serif;
+    margin-bottom: 3rem;
+}
+.why svg{
+    color: #EB662B;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+.why h5{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #000;
+    text-transform: capitalize;
+    font-family: Inter, sans-serif;
+}
+.why p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #6B7280;
+    font-family: Inter, sans-serif;
+}

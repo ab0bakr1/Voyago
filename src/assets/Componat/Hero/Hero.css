@@ -1,0 +1,68 @@
+main{
+    background: url(../../IMG/Hero.webp) rgb(254, 239, 230);
+    background-size: cover;
+    background-position: center;
+    height: 90dvh;
+    width: 100%;
+    position: relative;
+}
+.now{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);    
+    text-align: center;
+}
+.now h2{
+    font-size: 4rem;
+    background: linear-gradient(to right, #EE8C61, #4C43C4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-weight: 700;
+    font-family: Inter, sans-serif;
+    padding: 0 20px;
+}
+.now .search svg{
+    font-size: 1.3rem;
+    color: #EB662B;
+    padding: 10px;
+    border-radius: 50%;
+    border: #EB662B 1px solid;
+    background-color: rgb(254, 239, 230);
+}
+.now .search label{
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #05073C;
+}
+.now .search input{
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+}
+.now .search input::placeholder{
+    color: #000;
+    font-weight: 400;
+}
+.now .search button{
+    background-color: #EB662B;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+    .now{
+        top: 40%;
+    }
+}
