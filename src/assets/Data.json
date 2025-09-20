@@ -1,0 +1,546 @@
+[
+    {
+        "id": 1,
+        "city": "Jeddah, Saudi Arabia",
+        "title": "Centipede Tour - Guided Arizona Desert Tour by ATV",
+        "description": "Experience the beauty of the Arizona desert on an exciting ATV tour. Explore rugged trails, stunning landscapes, and unique rock formations with a knowledgeable guide.",
+        "Highlights": [
+            "Guided ATV tour through the Arizona desert",
+            "Explore rugged trails and stunning landscapes",
+            "See unique rock formations and desert flora",
+            "Learn about the local ecosystem from an experienced guide"
+        ],
+        "rating": 4.9,
+        "reviews": 120,
+        "price": 150,
+        "days": 5,
+        "itinerary": [
+            "Day 1: Arrival and Orientation",
+            "Day 2: Desert Exploration",
+            "Day 3: Rock Formations Tour",
+            "Day 4: Sunset Ride",
+            "Day 5: Departure"
+        ],
+        "images": [
+            "https://media.istockphoto.com/id/2170377163/photo/jeddah-skyline-arial-view-jeddah-city-saudi-arabia.jpg?s=2048x2048&w=is&k=20&c=CvKTb3olKRwgse2vSMk2_9EOapg8ysMy52mE8_Y3m4M=",
+            "https://cdn.pixabay.com/photo/2013/06/10/09/23/desert-123978_1280.jpg",
+            "https://cdn.pixabay.com/photo/2024/07/08/03/54/saudi-arabia-8880043_1280.jpg"
+        ],
+        "included": [
+            "Transportation",
+            "Accommodation",
+            "Guided ATV Tour",
+            "Guided Desert Exploration",
+            "Meals",
+            "Safety Gear",
+            "Entrance Fees",
+            "Travel Insurance",
+            "Local taxes",
+            "Bottled Water"
+        ]
+    },
+    {
+        "id": 2,
+        "city": "New York, USA",
+        "title": "Safari Adventure - African Safari Tour with Zebra",
+        "description": "Embark on a thrilling African safari experience with a unique opportunity to witness the incredible Zebra.",
+        "Highlights": [
+            "Unforgettable African safari tour",
+            "Witness the majestic Zebra in their natural habitat",
+            "Explore diverse wildlife and stunning landscapes",
+            "Learn about the African wildlife conservation efforts"
+        ],
+        "rating": 4.8,
+        "reviews": 95,
+        "price": 2500,
+        "days": 7,
+        "itinerary": [
+            "Day 1: Arrival and Orientation",
+            "Day 2: Safari Game Drive",
+            "Day 3: Zebra Spotting",
+            "Day 4: Cultural Experience",
+            "Day 5: Nature Walk",
+            "Day 6: Sunset Safari",
+            "Day 7: Departure"
+        ],
+        "images": [
+            "https://cdn.pixabay.com/photo/2018/12/14/21/29/sunset-3875817_1280.jpg",
+            "https://cdn.pixabay.com/photo/2016/01/02/16/20/new-york-1118418_1280.jpg",
+            "https://cdn.pixabay.com/photo/2017/06/27/17/17/new-york-2448138_1280.jpg"
+        ],
+        "included": [
+            "Accommodation",
+            "Guided Safari Tours",
+            "All Meals",
+            "Park Entrance Fees",
+            "Transportation within the safari area",
+            "Professional Guide",
+            "Travel Insurance",
+            "Local taxes",
+            "Bottled Water"
+        ]
+    },
+    {
+        "id": 3,
+        "city": "Tokyo, Japan",
+        "title": "Mountain Hiking - Guided Mountain Hiking Tour",
+        "description": "Join us for an exhilarating guided mountain hiking tour that takes you through breathtaking landscapes and challenging trails.",
+        "Highlights": [
+            "Guided mountain hiking tour",
+            "Explore breathtaking landscapes and scenic trails",
+            "Experience the thrill of reaching mountain summits",
+            "Learn about local flora and fauna from an experienced guide"
+        ],
+        "rating": 4.7,
+        "reviews": 80,
+        "price": 300,
+        "days": 4,
+        "itinerary": [
+            "Day 1: Arrival and Orientation",
+            "Day 2: Mountain Trail Hike",
+            "Day 3: Summit Challenge",
+            "Day 4: Departure"
+        ],
+        "images": [
+            "https://cdn.pixabay.com/photo/2020/07/23/01/16/heritage-5430081_1280.jpg",
+            "https://cdn.pixabay.com/photo/2015/06/29/04/41/tokyo-tower-825196_1280.jpg",
+            "https://cdn.pixabay.com/photo/2020/01/31/07/10/city-4807268_1280.jpg"
+        ],
+        "included": [
+            "Accommodation",
+            "Guided Hiking Tours",
+            "Meals",
+            "Safety Gear",
+            "Transportation to and from hiking locations",
+            "Professional Guide",
+            "Travel Insurance",
+            "Local taxes",
+            "Bottled Water"
+        ]
+    },
+    {
+        "id": 4,
+        "city": "Sydney, Australia",
+        "title": "City Lights - Night City Tour with Skyline Views",
+        "description": "Experience the vibrant nightlife of the city with our exciting night city tour that offers stunning skyline views and unforgettable experiences.",
+        "Highlights": [
+            "Exciting night city tour",
+            "Stunning skyline views",
+            "Explore vibrant nightlife and iconic landmarks",
+            "Learn about the city's history and culture from a knowledgeable guide"
+        ],
+        "rating": 4.6,
+        "reviews": 60,
+        "price": 100,
+        "days": 1,
+        "itinerary": [
+            "Evening: City Lights Tour",
+            "Night: Skyline Viewing Experience"
+        ],
+        "images": [
+            "https://cdn.pixabay.com/photo/2014/04/04/10/51/cityscape-313216_1280.jpg",
+            "https://cdn.pixabay.com/photo/2014/05/26/09/58/sydney-opera-house-354375_1280.jpg",
+            "https://cdn.pixabay.com/photo/2015/10/18/07/14/sydney-993916_1280.jpg"
+        ],
+        "included": [
+            "Guided Night City Tour",
+            "Transportation",
+            "Skyline Viewing Experience",
+            "Professional Guide",
+            "Travel Insurance",
+            "Local taxes",
+            "Bottled Water"
+        ]
+    },
+    {
+        "id": 5,
+        "city": "Rome, Italy",
+        "title": "Cultural Journey - Historical City Tour with Ancient Ruins",
+        "description": "Discover the rich history and culture of the city with our immersive historical city tour that takes you to ancient ruins and iconic landmarks.",
+        "Highlights": [
+            "Immersive historical city tour",
+            "Visit ancient ruins and iconic landmarks",
+            "Learn about the city's rich history and culture",
+            "Experience local traditions and cuisine"
+        ],
+        "rating": 4.9,
+        "reviews": 150,
+        "price": 200,
+        "days": 3,
+        "itinerary": [
+            "Day 1: Arrival and Orientation",
+            "Day 2: Historical City Tour",
+            "Day 3: Ancient Ruins Exploration",
+            "Day 4: Departure"
+        ],
+        "images": [
+            "https://cdn.pixabay.com/photo/2025/03/31/21/30/italy-9505450_1280.jpg",
+            "https://cdn.pixabay.com/photo/2014/10/11/15/29/ancient-rome-484705_1280.jpg",
+            "https://cdn.pixabay.com/photo/2018/08/28/18/20/viewpoint-3638146_1280.jpg"
+        ],
+        "included": [
+            "Accommodation",
+            "Guided Historical Tours",
+            "Meals",
+            "Entrance Fees to Ancient Ruins",
+            "Transportation within the city",
+            "Professional Guide",
+            "Travel Insurance",
+            "Local taxes",
+            "Bottled Water"
+        ]
+    },
+    {
+        "id": 6,
+        "city": "Cape Town, South Africa",
+        "title": "Beach Escape - Relaxing Beach Vacation Package",
+        "description": "Unwind and relax with our beach vacation package that offers stunning coastal views, luxurious accommodations, and exciting water activities.",
+        "Highlights": [
+            "Relaxing beach vacation package",
+            "Stunning coastal views and pristine beaches",
+            "Luxurious accommodations and amenities",
+            "Exciting water activities and beachside experiences"
+        ],
+        "rating": 4.8,
+        "reviews": 110,
+        "price": 1200,
+        "days": 6,
+        "itinerary": [
+            "Day 1: Arrival and Orientation",
+            "Day 2: Beach Day and Water Activities",
+            "Day 3: Coastal Exploration",
+            "Day 4: Relaxation and Spa Day",
+            "Day 5: Sunset Beach Experience",
+            "Day 6: Departure"
+        ],
+        "images": [
+            "https://cdn.pixabay.com/photo/2020/06/10/16/28/cape-town-5283355_1280.jpg",
+            "https://cdn.pixabay.com/photo/2017/04/28/09/02/south-africa-2267795_1280.jpg",
+            "https://cdn.pixabay.com/photo/2017/07/09/22/29/cape-town-2488411_1280.jpg"
+        ],
+        "included": [
+            "Accommodation",
+            "Meals",
+            "Beach Activities",
+            "Water Sports Equipment",
+            "Transportation to and from the beach",
+            "Professional Guide",
+            "Travel Insurance",
+            "Local taxes",
+            "Bottled Water"
+        ]
+    },
+    {
+        "id": 7,
+        "city": "Barcelona, Spain",
+        "title": "Culinary Delights - Food and Wine Tasting Tour",
+        "description": "Indulge in a culinary adventure with our food and wine tasting tour that takes you to local markets, renowned restaurants, and picturesque vineyards.",
+        "Highlights": [
+            "Culinary adventure with food and wine tasting",
+            "Visit local markets and renowned restaurants",
+            "Explore picturesque vineyards and wine cellars",
+            "Learn about local cuisine and wine-making traditions"
+        ],
+        "rating": 4.9,
+        "reviews": 130,
+        "price": 400,
+        "days": 3,
+        "itinerary": [
+            "Day 1: Arrival and Orientation",
+            "Day 2: Food Market Tour and Restaurant Experience",
+            "Day 3: Vineyard Visit and Wine Tasting",
+            "Day 4: Departure"
+        ],
+        "images": [
+            "https://cdn.pixabay.com/photo/2019/12/28/11/40/barcelona-4724397_1280.jpg",
+            "https://cdn.pixabay.com/photo/2014/05/14/16/37/football-stadium-344211_1280.jpg",
+            "https://cdn.pixabay.com/photo/2018/12/23/22/12/ships-3891905_1280.jpg"
+        ],
+        "included": [
+            "Accommodation",
+            "Guided Food and Wine Tours",
+            "Meals and Tastings",
+            "Transportation to Markets and Vineyards",
+            "Professional Guide",
+            "Travel Insurance",
+            "Local taxes",
+            "Bottled Water"
+        ]
+    },
+    {
+        "id": 8,
+        "city": "Dubai, UAE",
+        "title": "Desert Safari - Thrilling Desert Adventure with Dune Bashing",
+        "description": "Experience the thrill of a desert safari with exciting dune bashing, camel rides, and traditional entertainment under the starry desert sky.",
+        "Highlights": [
+            "Thrilling desert safari adventure",
+            "Exciting dune bashing experience",
+            "Camel rides and desert exploration",
+            "Traditional entertainment and cultural experiences"
+        ],
+        "rating": 4.7,
+        "reviews": 90,
+        "price": 150,
+        "days": 1,
+        "itinerary": [
+            "Afternoon: Desert Safari and Dune Bashing",
+            "Evening: Camel Rides and Cultural Entertainment"
+        ],
+        "images": [
+            "https://cdn.pixabay.com/photo/2017/03/17/14/08/dubai-2151681_1280.jpg",
+            "https://cdn.pixabay.com/photo/2022/08/14/14/21/desert-7386004_1280.jpg",
+            "https://cdn.pixabay.com/photo/2016/02/28/20/23/dubai-1227538_1280.jpg"
+        ],
+        "included": [
+            "Desert Safari Tour",
+            "Dune Bashing Experience",
+            "Camel Rides",
+            "Traditional Entertainment",
+            "Meals and Refreshments",
+            "Transportation to and from the desert",
+            "Professional Guide",
+            "Travel Insurance",
+            "Local taxes",
+            "Bottled Water"
+        ]
+    },
+    {
+        "id": 9,
+        "city": "Istanbul, Turkey",
+        "title": "Historical Wonders - Ancient City Tour with Iconic Landmarks",
+        "description": "Explore the rich history and culture of the city with our ancient city tour that takes you to iconic landmarks and historical sites.",
+        "Highlights": [
+            "Ancient city tour with iconic landmarks",
+            "Explore rich history and cultural heritage",
+            "Visit historical sites and architectural marvels",
+            "Learn about the city's past from a knowledgeable guide"
+        ],
+        "rating": 4.8,
+        "reviews": 100,
+        "price": 180,
+        "days": 2,
+        "itinerary": [
+            "Day 1: Arrival and Orientation",
+            "Day 2: Historical City Tour and Landmark Visits",
+            "Day 3: Departure"
+        ],
+        "images": [
+            "https://cdn.pixabay.com/photo/2016/07/28/12/19/istanbul-1547735_1280.jpg",
+            "https://cdn.pixabay.com/photo/2017/11/02/19/37/istanbul-2912249_1280.jpg",
+            "https://cdn.pixabay.com/photo/2022/06/27/08/18/istanbul-aerial-view-7287019_1280.jpg"
+        ],
+        "included": [
+            "Accommodation",
+            "Guided Historical Tours",
+            "Meals",
+            "Entrance Fees to Landmarks",
+            "Transportation within the city",
+            "Professional Guide",
+            "Travel Insurance",
+            "Local taxes",
+            "Bottled Water"
+        ]
+    },
+    {
+        "id": 10,
+        "city": "Bangkok, Thailand",
+        "title": "Tropical Paradise - Island Hopping Tour with Snorkeling",
+        "description": "Discover the beauty of tropical islands with our island hopping tour that includes snorkeling in crystal-clear waters and exploring vibrant marine life.",
+        "Highlights": [
+            "Island hopping tour in a tropical paradise",
+            "Snorkeling in crystal-clear waters",
+            "Explore vibrant marine life and coral reefs",
+            "Relax on pristine beaches and enjoy stunning views"
+        ],
+        "rating": 4.9,
+        "reviews": 140,
+        "price": 350,
+        "days": 3,
+        "itinerary": [
+            "Day 1: Arrival and Orientation",
+            "Day 2: Island Hopping and Snorkeling",
+            "Day 3: Beach Relaxation and Departure"
+        ],
+        "images": [
+            "https://cdn.pixabay.com/photo/2016/10/22/00/04/bangkok-1759467_1280.jpg",
+            "https://cdn.pixabay.com/photo/2016/11/14/03/29/grand-palace-1822487_1280.jpg",
+            "https://cdn.pixabay.com/photo/2018/09/28/07/19/thailand-3708666_1280.jpg"
+        ],
+        "included": [
+            "Accommodation",
+            "Guided Island Hopping Tours",
+            "Snorkeling Equipment",
+            "Meals",
+            "Boat Transportation",
+            "Professional Guide",
+            "Travel Insurance",
+            "Local taxes",
+            "Bottled Water"
+        ]
+    },
+    {
+        "id": 11,
+        "city": "San Francisco, USA",
+        "title": "Tech Explorer - Silicon Valley Tour with Company Visits",
+        "description": "Dive into the world of technology with our Silicon Valley tour that includes visits to leading tech companies and innovation hubs.",
+        "Highlights": [
+            "Silicon Valley tour with company visits",
+            "Explore leading tech companies and innovation hubs",
+            "Learn about the latest technological advancements",
+            "Network with industry professionals and entrepreneurs"
+        ],
+        "rating": 4.7,
+        "reviews": 85,
+        "price": 600,
+        "days": 2,
+        "itinerary": [
+            "Day 1: Arrival and Orientation",
+            "Day 2: Company Visits and Tech Exploration",
+            "Day 3: Departure"
+        ],
+        "images": [
+            "https://cdn.pixabay.com/photo/2017/01/05/21/57/the-golden-gate-bridge-1956459_1280.jpg",
+            "https://cdn.pixabay.com/photo/2016/08/31/11/30/transamerica-pyramid-1633203_1280.jpg",
+            "https://cdn.pixabay.com/photo/2017/08/20/13/07/usa-2661638_1280.jpg"
+        ],
+        "included": [
+            "Accommodation",
+            "Guided Silicon Valley Tours",
+            "Company Visits",
+            "Meals",
+            "Transportation within Silicon Valley",
+            "Professional Guide",
+            "Travel Insurance",
+            "Local taxes",
+            "Bottled Water"
+        ]
+    },
+    {
+        "id": 12,
+        "city": "Amsterdam, Netherlands",
+        "title": "Canal Cruise - Scenic City Tour with Boat Ride",
+        "description": "Experience the charm of the city with our scenic canal cruise that offers stunning views of historic architecture and vibrant neighborhoods.",
+        "Highlights": [
+            "Scenic canal cruise through the city",
+            "Stunning views of historic architecture",
+            "Explore vibrant neighborhoods and cultural landmarks",
+            "Learn about the city's history and culture from a knowledgeable guide"
+        ],
+        "rating": 4.8,
+        "reviews": 110,
+        "price": 80,
+        "days": 1,
+        "itinerary": [
+            "Afternoon: Canal Cruise and City Tour"
+        ],
+        "images": [
+            "https://cdn.pixabay.com/photo/2021/11/08/11/33/amsterdam-centraal-station-6778948_1280.jpg",
+            "https://cdn.pixabay.com/photo/2021/07/14/21/51/buildings-6467078_1280.jpg",
+            "https://cdn.pixabay.com/photo/2021/11/09/11/16/canal-6781303_1280.jpg"
+        ],
+        "included": [
+            "Canal Cruise Ticket",
+            "Guided City Tour",
+            "Professional Guide",
+            "Travel Insurance",
+            "Local taxes",
+            "Bottled Water"
+        ]
+    },
+    {
+        "id": 13,
+        "city": "Lisbon, Portugal",
+        "title": "Historic Tram Ride - City Tour with Vintage Tram Experience",
+        "description": "Explore the city's historic neighborhoods and iconic landmarks with our vintage tram ride that offers a unique perspective of the city's charm.",
+        "Highlights": [
+            "Historic tram ride through the city",
+            "Explore charming neighborhoods and iconic landmarks",
+            "Experience the city's rich history and culture",
+            "Learn about local traditions and architecture from a knowledgeable guide"
+        ],
+        "rating": 4.7,
+        "reviews": 75,
+        "price": 50,
+        "days": 1,
+        "itinerary": [
+            "Morning: Historic Tram Ride and City Tour"
+        ],
+        "images": [
+            "https://cdn.pixabay.com/photo/2016/04/28/17/21/belen-tower-1359337_1280.jpg",
+            "https://cdn.pixabay.com/photo/2020/10/02/16/42/tram-5621647_1280.jpg",
+            "https://cdn.pixabay.com/photo/2020/02/05/09/31/city-4820579_1280.jpg"
+        ],
+        "included": [
+            "Vintage Tram Ride Ticket",
+            "Guided City Tour",
+            "Professional Guide",
+            "Travel Insurance",
+            "Local taxes",
+            "Bottled Water"
+        ]
+    },
+    {
+        "id": 14,
+        "city": "Vienna, Austria",
+        "title": "Classical Music Tour - Concert Experience with Historic Venues",
+        "description": "Immerse yourself in the world of classical music with our concert experience that takes you to historic venues and features performances by renowned musicians.",
+        "Highlights": [
+            "Classical music concert experience",
+            "Visit historic venues and iconic concert halls",
+            "Enjoy performances by renowned musicians",
+            "Learn about the history of classical music in the city"
+        ],
+        "rating": 4.9,
+        "reviews": 95,
+        "price": 120,
+        "days": 1,
+        "itinerary": [
+            "Evening: Classical Music Concert at Historic Venue"
+        ],
+        "images": [
+            "https://cdn.pixabay.com/photo/2017/01/23/21/05/castle-2003867_1280.jpg",
+            "https://cdn.pixabay.com/photo/2018/09/03/13/11/vienna-3651186_1280.jpg",
+            "https://cdn.pixabay.com/photo/2020/05/12/19/19/vienna-5164602_1280.jpg"
+        ],
+        "included": [
+            "Concert Ticket",
+            "Guided Venue Tour",
+            "Professional Guide",
+            "Travel Insurance",
+            "Local taxes",
+            "Bottled Water"
+        ]
+    },
+    {
+        "id": 15,
+        "city": "Prague, Czech Republic",
+        "title": "Castle Tour - Historical City Tour with Castle Visit",
+        "description": "Discover the city's rich history and architecture with our historical city tour that includes a visit to the iconic castle and surrounding landmarks.",
+        "Highlights": [
+            "Historical city tour with castle visit",
+            "Explore rich history and architectural marvels",
+            "Visit iconic landmarks and cultural sites",
+            "Learn about the city's past from a knowledgeable guide"
+        ],
+        "rating": 4.8,
+        "reviews": 80,
+        "price": 90,
+        "days": 1,
+        "itinerary": [
+            "Morning: Historical City Tour and Castle Visit"
+        ],
+        "images": [
+            "https://cdn.pixabay.com/photo/2017/12/10/17/40/prague-3010407_1280.jpg",
+            "https://cdn.pixabay.com/photo/2016/01/03/18/00/prague-1119791_1280.jpg",
+            "https://cdn.pixabay.com/photo/2020/10/15/12/50/prague-5656740_1280.jpg"
+        ],
+        "included": [
+            "Castle Entrance Ticket",
+            "Guided Historical City Tour",
+            "Professional Guide",
+            "Travel Insurance",
+            "Local taxes",
+            "Bottled Water"
+        ]
+    }
+]
