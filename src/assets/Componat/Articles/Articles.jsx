@@ -2,7 +2,7 @@ import React from 'react'
 import "./Articles.css"
 const Articles = () => {
   return (
-    <section className="articles mx-auto mt-20 lg:px-32 md:px-10 px-2">
+    <section className="articles mx-auto my-20 lg:px-32 md:px-10 px-2">
         <div className="flex justify-between items-center mb-5">
             <h2>Travel Articles</h2>
             <a href="#">see all</a>
