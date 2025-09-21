@@ -1,0 +1,28 @@
+.articles h2{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000;
+    text-transform: capitalize;
+    font-family: Inter, sans-serif;
+}
+.articles a{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000;
+    text-transform: capitalize;
+    font-family: Inter, sans-serif;
+}
+.articles p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #05073C;
+    text-transform: capitalize;
+    font-family: Inter, sans-serif;
+}
+.articles h4{
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #000;
+    text-transform: capitalize;
+    font-family: Inter, sans-serif;
+}
