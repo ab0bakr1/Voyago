@@ -5,6 +5,7 @@ import Popular from '../Componat/Popular/Popular'
 import Why from '../Componat/Why/Why'
 import Featured from '../Componat/Featured/Featured'
 import Trending from '../Componat/Trending/Trending'
+import Reviews from '../Componat/Reviews/Reviews'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Why />
       <Featured />
       <Trending />
+      <Reviews />
     </>
   )
 }

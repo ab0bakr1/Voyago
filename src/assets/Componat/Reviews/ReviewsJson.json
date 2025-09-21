@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Ali Tufan",
+        "role": "Product Manager, Apple Inc.",
+        "img": "user1",
+        "review": "The tours in this website are great. I had been really enjoy with my family! The team is very professional and taking care of the customers. Will surely recommend to my freind to join this company!"
+    },
+    {
+        "id": 2,
+        "name": "Sarah Johnson",
+        "role": "Marketing Specialist, Google",
+        "img": "user2",
+        "review": "I really enjoyed the tours in this website. The team is very friendly and taking care of the customers. I will definitely recommend this company to my friends."
+    },
+    {
+        "id": 3,
+        "name": "Michael Smith",
+        "role": "Software Engineer, Microsoft",
+        "img": "user3",
+        "review": "The tours in this website are amazing. The team is very knowledgeable and taking care of the customers. I will definitely recommend this company to my colleagues."
+    },
+    {
+        "id": 4,
+        "name": "Emily Davis",
+        "role": "Graphic Designer, Adobe",
+        "img": "user4",
+        "review": "The tours in this website are great. The team is very friendly and taking care of the customers. I will definitely recommend this company to my friends."
+    }
+]
