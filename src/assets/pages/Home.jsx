@@ -8,6 +8,7 @@ import Trending from '../Componat/Trending/Trending'
 import Reviews from '../Componat/Reviews/Reviews'
 import Articles from '../Componat/Articles/Articles'
 import Mobile from '../Componat/Mobile/Mobile'
+import Footer from '../Componat/Footer/Footer'
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
       <Reviews />
       <Articles />
       <Mobile />
+      <Footer />
     </>
   )
 }

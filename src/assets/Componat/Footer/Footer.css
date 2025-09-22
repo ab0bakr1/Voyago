@@ -1,0 +1,35 @@
+footer{
+    background-color: #05073C;
+}
+.footer-top{
+    padding: 2rem 0;
+    color: white;
+}
+.footer-middle h6{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.footer-middle a{
+    font-size: 1rem;
+    text-transform: capitalize;
+    color: #b1b1e8;
+}
+.footer-middle p{
+    color: #b1b1e8;
+}
+.newsletter form{
+    background-color: #fff;
+    border-radius: 10px;
+}
+.newsletter form input{
+    border-radius: 10px;
+    color: #05073C;
+}
+.newsletter form button{
+    color: #05073C;
+    text-transform: uppercase;
+}
+.footer-bottom {
+    padding: 1rem 0;
+}
