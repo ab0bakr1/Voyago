@@ -1,0 +1,56 @@
+.list h2{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000;
+    text-transform: capitalize;
+    font-family: Inter, sans-serif;
+}
+.list p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #424242;
+    text-transform: capitalize;
+    font-family: Inter, sans-serif;
+}
+.info h5{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #000;
+    text-transform: capitalize;
+    font-family: Inter, sans-serif;
+}
+.info p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #424242;
+    text-transform: capitalize;
+    font-family: Inter, sans-serif;
+}
+.info a{
+    color: #EB662B;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: Inter, sans-serif;
+}
+.price h6{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #000;
+    text-transform: capitalize;
+    font-family: Inter, sans-serif;
+}
+.price button{
+    border: #EB662B 1px solid;
+    color: #EB662B;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: Inter, sans-serif;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+.price button:hover{
+    background-color: #EB662B;
+    color: #fff;
+}
