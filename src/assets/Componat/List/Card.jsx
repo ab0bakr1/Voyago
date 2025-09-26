@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Card = ({item, index}) => {
   return (
@@ -17,7 +18,9 @@ const Card = ({item, index}) => {
         <div className="price w-1/5 h-full flex flex-col justify-around items-center border-l-2 border-gray-200">
             <h6>{item.days} Days</h6>
             <h6>$ {item.price}</h6>
-            <button className='md:py-3 md:px-4 py-1 px-2'>View Details</button>
+            <Link to={`/Details/${item.id}`}>
+              <button className='md:py-3 md:px-4 py-1 px-2'>View Details</button>
+            </Link>
         </div>
     </div>
   )

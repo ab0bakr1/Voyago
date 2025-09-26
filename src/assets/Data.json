@@ -37,6 +37,11 @@
             "Travel Insurance",
             "Local taxes",
             "Bottled Water"
+        ],
+        "tickets" : [
+            { "type": "adult", "price": 600 },
+            { "type": "youth", "price": 400 },
+            { "type": "child", "price": 300 }
         ]
     },
     {
@@ -78,6 +83,11 @@
             "Travel Insurance",
             "Local taxes",
             "Bottled Water"
+        ],
+        "tickets" : [
+            {"type": "adult","price": 350},
+            {"type": "youth","price": 210},
+            {"type": "child","price": 150}
         ]
     },
     {
@@ -116,6 +126,11 @@
             "Travel Insurance",
             "Local taxes",
             "Bottled Water"
+        ],
+        "tickets" : [
+            {"type": "adult","price": 400},
+            {"type": "youth","price": 280},
+            {"type": "child","price": 100}
         ]
     },
     {
@@ -150,6 +165,11 @@
             "Travel Insurance",
             "Local taxes",
             "Bottled Water"
+        ],
+        "tickets" : [
+            {"type": "adult","price": 200},
+            {"type": "youth","price": 150},
+            {"type": "child","price": 100}
         ]
     },
     {
@@ -188,6 +208,11 @@
             "Travel Insurance",
             "Local taxes",
             "Bottled Water"
+        ],
+        "tickets" : [
+            {"type": "adult","price": 600},
+            {"type": "youth","price": 400},
+            {"type": "child","price": 300}
         ]
     },
     {
@@ -228,6 +253,11 @@
             "Travel Insurance",
             "Local taxes",
             "Bottled Water"
+        ],
+        "tickets" : [
+            {"type": "adult","price": 400},
+            {"type": "youth","price": 200},
+            {"type": "child","price": 100}
         ]
     },
     {
@@ -265,6 +295,11 @@
             "Travel Insurance",
             "Local taxes",
             "Bottled Water"
+        ],
+        "tickets" : [
+            {"type": "adult","price": 200},
+            {"type": "youth","price": 100},
+            {"type": "child","price": 80}
         ]
     },
     {
@@ -302,6 +337,11 @@
             "Travel Insurance",
             "Local taxes",
             "Bottled Water"
+        ],
+        "tickets" : [
+            {"type": "adult","price": 300},
+            {"type": "youth","price": 100},
+            {"type": "child","price": 80}
         ]
     },
     {
@@ -339,6 +379,11 @@
             "Travel Insurance",
             "Local taxes",
             "Bottled Water"
+        ],
+        "tickets" : [
+            {"type": "adult","price": 600},
+            {"type": "youth","price": 400},
+            {"type": "child","price": 300}
         ]
     },
     {
@@ -376,6 +421,11 @@
             "Travel Insurance",
             "Local taxes",
             "Bottled Water"
+        ],
+        "tickets" : [
+            {"type": "adult","price": 600},
+            {"type": "youth","price": 400},
+            {"type": "child","price": 300}
         ]
     },
     {
@@ -413,6 +463,11 @@
             "Travel Insurance",
             "Local taxes",
             "Bottled Water"
+        ],
+        "tickets" : [
+            {"type": "adult","price": 600},
+            {"type": "youth","price": 400},
+            {"type": "child","price": 300}
         ]
     },
     {
@@ -445,6 +500,11 @@
             "Travel Insurance",
             "Local taxes",
             "Bottled Water"
+        ],
+        "tickets" : [
+            {"type": "adult","price": 600},
+            {"type": "youth","price": 400},
+            {"type": "child","price": 300}
         ]
     },
     {
@@ -477,6 +537,11 @@
             "Travel Insurance",
             "Local taxes",
             "Bottled Water"
+        ],
+        "tickets" : [
+            {"type": "adult","price": 600},
+            {"type": "youth","price": 400},
+            {"type": "child","price": 300}
         ]
     },
     {
@@ -509,6 +574,11 @@
             "Travel Insurance",
             "Local taxes",
             "Bottled Water"
+        ],
+        "tickets" : [
+            {"type": "adult","price": 600},
+            {"type": "youth","price": 400},
+            {"type": "child","price": 300}
         ]
     },
     {
@@ -541,6 +611,11 @@
             "Travel Insurance",
             "Local taxes",
             "Bottled Water"
+        ],
+        "tickets" : [
+            {"type": "adult","price": 600},
+            {"type": "youth","price": 400},
+            {"type": "child","price": 300}
         ]
     }
 ]

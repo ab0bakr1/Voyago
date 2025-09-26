@@ -31,7 +31,7 @@ const List = () => {
                 </div>
                 <div className="grid grid-cols-1 md:auto-rows-[300px] auto-rows-auto gap-4">
                     {currentItems.map((item, index) => (
-                        <Card item={item} key={index}/>
+                        <Card item={item} index={index}/>
                     ))}
                 </div>
             </div>
