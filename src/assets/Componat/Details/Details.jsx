@@ -4,7 +4,7 @@ import Data from "../../Data.json";
 import BookingCard from "./Booking";
 import Included from "./included";
 import "./Details.css";
-import Itinerary from "./itinerary";
+import Itinerary from "./Itinerary";
 import Like from "./Like";
 
 const Details = () => {
