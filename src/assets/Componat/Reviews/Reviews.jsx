@@ -4,10 +4,10 @@ import { AnimatePresence, motion } from "framer-motion";
 import { faQuoteLeft } from "@fortawesome/free-solid-svg-icons/faQuoteLeft";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import user1 from "../../img/user1.png";
-import user2 from "../../img/user2.png";
-import user3 from "../../img/user3.png";
-import user4 from "../../img/user4.png";
+import user1 from "../../IMG/user1.png";
+import user2 from "../../IMG/user2.png";
+import user3 from "../../IMG/user3.png";
+import user4 from "../../IMG/user4.png";
 
 const Images = {
   user1,
