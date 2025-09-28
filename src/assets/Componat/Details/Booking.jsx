@@ -46,7 +46,7 @@ const BookingCard = ({ id }) => {
   const total = ticketsTotal + extrasTotal;
 
   return (
-    <div className="max-w-sm mx-auto p-6 bg-white rounded-xl shadow-md space-y-6">
+    <div className="md:max-w-sm w-full mx-auto p-6 bg-white rounded-xl shadow-md space-y-6">
       <h2 className="text-xl font-bold text-gray-800">
         From ${firstPrice}
       </h2>

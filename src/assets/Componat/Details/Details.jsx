@@ -2,6 +2,10 @@ import React from "react";
 import { useParams, Link } from "react-router-dom";
 import Data from "../../Data.json";
 import BookingCard from "./Booking";
+import Included from "./included";
+import "./Details.css";
+import Itinerary from "./itinerary";
+import Like from "./Like";
 
 const Details = () => {
   const { id } = useParams(); // يجيب id من الرابط
@@ -18,10 +22,10 @@ const Details = () => {
   }
 
   return (
-    <section className="py-20 lg:px-32 md:px-10 px-2">
-      {/* <Link to="/" className="text-blue-500 underline mb-4 inline-block">
+    <section className="Details mx-auto py-10 lg:px-32 md:px-10 px-2">
+      <Link to="/" className="text-orange-500 underline mb-4 inline-block">
         ← Back to List
-      </Link> */}
+      </Link>
       <h1>{item.title}</h1>
       <div className="flex justify-start items-center gap-4">
         <p>{item.rating} ({item.reviews})</p>
@@ -39,8 +43,8 @@ const Details = () => {
             </div>
         ))}
       </div>
-      <div className="w-full flex justify-between">
-        <div className="overview w-4/5">
+      <div className="w-full flex md:flex-row flex-col-reverse justify-between mt-5">
+        <div className="overview md:w-4/5 w-full md:px-0 px-2">
             <h3>Tour Overview</h3>
             <p>{item.title} {item.description}</p>
             <h5>Tour Highlights</h5>
@@ -49,8 +53,14 @@ const Details = () => {
                     <li key={index}>{highlight}</li>
                 ))}
             </ul>
+            <hr className="mt-5" />
+            <Included item={item}/>
+            <hr className="mt-5" />
+            <Itinerary item={item}/>
+            <hr className="mt-5" />
+            <Like />
         </div>
-        <div className="Booking w-1/5 h-full flex flex-col justify-around items-center border-l-2 border-gray-200">
+        <div className="Booking md:w-1/5 w-full h-full flex flex-col justify-around items-center border-l-2 border-gray-200">
             <BookingCard id={item.id}/>
         </div>
       </div>
