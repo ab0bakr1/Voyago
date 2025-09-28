@@ -3,6 +3,7 @@ import Home from './assets/pages/Home'
 import About from './assets/pages/About'
 import Menu from './assets/pages/Menu'
 import DetailsPage from './assets/pages/DetailsPage'
+import NoPage from './assets/pages/NoPage'
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <Route path="/about" element={<About />} />
       <Route path="/List" element={<Menu />} />
       <Route path="/Details/:id" element={<DetailsPage />} />
+      <Route path="*" element={<NoPage />} />
 
     </Routes>
   )

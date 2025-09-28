@@ -10,6 +10,7 @@ import imgbuy2 from "../../IMG/Buy2.png"
 import imgbuy3 from "../../IMG/Buy3.png"
 import imgbuy4 from "../../IMG/Buy4.png"
 import imgbuy5 from "../../IMG/Buy5.png"
+import { Link } from 'react-router-dom'
 
 
 
@@ -40,21 +41,21 @@ const Footer = () => {
             </div>
             <div className="links flex flex-col gap-2">
                 <h6>company</h6>
-                <a href="#">about</a>
-                <a href="#">Tourz Reviews</a>
-                <a href="#">Contact Us</a>
-                <a href="#">Travel Guides</a>
-                <a href="#">Data Policy</a>
-                <a href="#">Cookie Policy</a>
-                <a href="#">Legal</a>
-                <a href="#">Sitemap</a>
+                <Link to="/NO Pages">about</Link>
+                <Link to="/NO Pages">Tourz Reviews</Link>
+                <Link to="/NO Pages">Contact Us</Link>
+                <Link to="/NO Pages">Travel Guides</Link>
+                <Link to="/NO Pages">Data Policy</Link>
+                <Link to="/NO Pages">Cookie Policy</Link>
+                <Link to="/NO Pages">Legal</Link>
+                <Link to="/NO Pages">Sitemap</Link>
             </div>    
             <div className="support flex flex-col gap-2">
                 <h6>support</h6>
-                <a href="#">Get in Touch</a>
-                <a href="#">Help center</a>
-                <a href="#">Live chat</a>
-                <a href="#">How it works</a>
+                <Link to="/NO Pages">Get in Touch</Link>
+                <Link to="/NO Pages">Help center</Link>
+                <Link to="/NO Pages">Live chat</Link>
+                <Link to="/NO Pages">How it works</Link>
             </div>
             <div className="newsletter flex flex-col gap-2">
                 <h6>newsletter</h6>
@@ -65,8 +66,8 @@ const Footer = () => {
                 </form>
                 <div className="App flex flex-col gap-2">
                     <h6>mobile App</h6>
-                    <a href="#">iOS App</a>
-                    <a href="#">Android App</a>
+                    <Link to="/NO Pages">iOS App</Link>
+                    <Link to="/NO Pages">Android App</Link>
                 </div>
             </div>
         </div>

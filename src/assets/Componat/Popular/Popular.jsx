@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Popular.css"
+import { Link } from 'react-router-dom';
 
 const Popular = () => {
     const tours = [
@@ -14,7 +15,7 @@ const Popular = () => {
     <section className='popular mx-auto mt-20 lg:px-32 md:px-10 px-2'>
         <div className="flex justify-between items-center mb-5">
             <h2>Popular things to do</h2>
-            <a href="#">see all</a>
+            <Link to="/List">see all</Link>
         </div>
             <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4 auto-rows-[300px]">
                 {tours.map((tour, id) => (

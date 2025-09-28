@@ -1,6 +1,7 @@
 import React from 'react'
 import DataJson from '../../Data.json'
 import "./Featured.css"
+import { Link } from 'react-router-dom';
 
 const Featured = () => {
     const FeaturedMenu = DataJson.slice(0,8);
@@ -8,11 +9,11 @@ const Featured = () => {
     <section className='featured mx-auto py-20 lg:px-32 md:px-10 px-2'>
         <div className="flex justify-between items-center mb-5">
             <h2>Featured Trips</h2>
-            <a href="#">see all</a>
+            <Link to="/List">see all</Link>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-6 auto-rows-[400px]">
             {FeaturedMenu.map((item)=>(
-                <div className="singleTour rounded-lg shadow-lg" key={item.id}>
+                <Link to={`/Details/${item.id}`} className="singleTour rounded-lg shadow-lg" key={item.id}>
                     <div className="h-1/2">
                         <img className="w-full h-full object-cover rounded-t-lg" src={item.images[0]} alt={item.city} />
                     </div>
@@ -26,7 +27,7 @@ const Featured = () => {
                             <p>From <b>${item.price}</b></p>
                         </div>
                     </div>
-                </div>    
+                </Link>    
             ))}
         </div>
     </section>

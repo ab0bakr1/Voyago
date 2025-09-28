@@ -1,12 +1,13 @@
 import React from 'react'
 import "./Trending.css"
+import { Link } from 'react-router-dom'
 
 const Trending = () => {
   return (
     <section className='trending mx-auto py-20 lg:px-32 md:px-10 px-2'>
         <div className="flex justify-between items-center">
             <h2>Trending Destinations</h2>
-            <a href="#">See All</a>
+            <Link to="/List">See All</Link>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mt-6 auto-rows-[400px]">
             <div className="group">

@@ -1,11 +1,12 @@
 import React from 'react'
 import "./Articles.css"
+import { Link } from 'react-router-dom'
 const Articles = () => {
   return (
     <section className="articles mx-auto my-20 lg:px-32 md:px-10 px-2">
         <div className="flex justify-between items-center mb-5">
             <h2>Travel Articles</h2>
-            <a href="#">see all</a>
+            <Link to="/article">see all</Link>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 auto-rows-[350px]">
             <div className="article">
