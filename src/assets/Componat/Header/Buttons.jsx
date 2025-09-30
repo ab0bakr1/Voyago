@@ -13,8 +13,8 @@ const Buttons = () => {
             </select>
         </form>
         <button className="help-btn">help</button>
-        <button className="login-btn">Log in</button>
-        <button className="singup-btn">sing up</button>
+        <button onClick={() => window.location.href = '/Login'} className="login-btn">Log in</button>
+        <button onClick={() => window.location.href = '/SingUp'} className="singup-btn">sing up</button>
     </div>
   )
 }

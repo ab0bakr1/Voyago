@@ -5,6 +5,7 @@ import Menu from './assets/pages/Menu'
 import DetailsPage from './assets/pages/DetailsPage'
 import NoPage from './assets/pages/NoPage'
 import SingUpPage from './assets/pages/SingUpPage'
+import LoginPage from './assets/pages/LoginPage'
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       <Route path="/about" element={<About />} />
       <Route path="/List" element={<Menu />} />
       <Route path="/SingUp" element={<SingUpPage />} />
+      <Route path="/Login" element={<LoginPage />} />
 
       <Route path="/Details/:id" element={<DetailsPage />} />
       <Route path="*" element={<NoPage />} />

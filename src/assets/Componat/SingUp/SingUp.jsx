@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './SingUp.css'
+import { useNavigate } from 'react-router-dom'
 const SingUp = () => {
     const [name,setName] = useState('')
     const [email,setEmail] = useState('')
@@ -7,6 +8,7 @@ const SingUp = () => {
     const [Cpassword, setCPassword] = useState('');
     const [error, setError] = useState('');
     const [success, setSuccess] = useState('');
+    const ToLogin = useNavigate();
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -69,6 +71,7 @@ const SingUp = () => {
                 {error && <p className="error text-red-500 text-xl capitalize">{error}</p>}
                 <button type="submit" className='px-5 py-2 rounded-lg bg-orange-600 text-white font-bold uppercase' onClick={handleSubmit}>Sing Up</button>
                 {success && <p className="success text-green-500 text-xl capitalize">{success}</p>}
+                <a className='text-lg text-blue-400 underline cursor-pointer' onClick={ToLogin("/Login")}>I have account</a>
             </form>
         </div>
     </section>
