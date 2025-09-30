@@ -1,0 +1,85 @@
+.SingUp {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #fff9f5,#fff9f5, #ee8c61);
+  font-family: "Poppins", sans-serif;
+}
+
+.SingUp form {
+  background: #fff;
+  padding: 2.5rem 2rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.SingUp h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #eb662b;
+  font-weight: 700;
+}
+
+.SingUp form label {
+  position: relative;
+  display: block;
+  width: 80%;
+}
+
+.SingUp form label input {
+  background-color: transparent;
+  color: #333;
+  width: 100%;
+  padding: 18px 12px 6px;
+  border: 1.5px solid rgba(105, 105, 105, 0.4);
+  border-radius: 10px;
+  outline: 0;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.SingUp form label input:focus {
+  border-color: #eb662b;
+  box-shadow: 0 0 0 3px rgba(235, 102, 43, 0.15);
+}
+
+.SingUp form label span {
+  color: #888;
+  position: absolute;
+  left: 12px;
+  top: 16px;
+  font-size: 0.95rem;
+  pointer-events: none;
+  transition: 0.3s ease;
+}
+
+.SingUp form label input:focus + span,
+.SingUp form label input:valid + span {
+  top: 4px;
+  left: 10px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #eb662b;
+  background: #fff;
+  padding: 0 4px;
+  border-radius: 4px;
+}
+
+.SingUp button {
+  width: 100%;
+  background: #eb662b;
+  border: none;
+  color: #fff;
+  padding: 14px;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 1rem;
+  transition: background 0.3s ease;
+}
+
+.SingUp button:hover {
+  background: #d55720;
+}
