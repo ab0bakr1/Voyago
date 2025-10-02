@@ -27,12 +27,12 @@ const Reviews = () => {
   }, []);
 
   return (
-    <section className="reviews mx-auto py-20 lg:px-32 md:px-10 px-4 text-center">
+    <section className="reviews mx-auto py-20 lg:px-32 md:px-10 px-4 text-center overflow-hidden">
       <h2 className="text-2xl font-bold text-gray-800 mb-6">Customer Reviews</h2>
       <div className="text-orange-500 text-4xl mb-6 flex justify-center">
         <FontAwesomeIcon icon={faQuoteLeft} />
       </div>
-      <div className="flex justify-center">
+      <div className="flex justify-center ">
         <AnimatePresence mode="wait">
           <motion.div key={activeIndex} initial={{ opacity: 0, x: 100 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -100 }} transition={{ duration: 0.5 }} className="max-w-2xl">
             <p className="text-gray-600 text-lg mb-6 italic">{ReviewsJson[activeIndex].review}</p>

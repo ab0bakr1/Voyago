@@ -15,7 +15,7 @@ const Navmobile = () => {
       </button>
       <AnimatePresence>
         {open && (
-            <motion.div initial={{ y: -200, opacity: 0 }} animate={{ y: 0, opacity: 1 }} exit={{ y: -200, opacity: 0 }} transition={{ duration: 0.4, ease: "easeInOut" }} className="absolute top-16 left-0 w-full bg-indigo-900 flex flex-col items-center gap-4 z-20 py-4 md:hidden">
+            <motion.div initial={{ y: -200, opacity: 0 }} animate={{ y: 0, opacity: 1 }} exit={{ y: -200, opacity: 0 }} transition={{ duration: 0.4, ease: "easeInOut" }} className="absolute top-16 left-0 w-full bg-indigo-900 flex flex-col items-center gap-4 z-50 py-4 md:hidden">
                 <nav className='flex'>
                   <ul className='flex flex-col justify-between align-center gap-6 text-lg font-medium text-white pb-5'>
                       <li><Link to="/" className='active'>Home</Link></li>
@@ -43,6 +43,7 @@ const Navmobile = () => {
             </motion.div>
         )}
       </AnimatePresence>
+      <div className={open ? "overlay fixed top-16 left-0 right-0 bottom-0 bg-black opacity-50 z-40" : ""} onClick={() => setOpen(false)}></div>
     </div>
   )
 }

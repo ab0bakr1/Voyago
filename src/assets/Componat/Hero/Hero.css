@@ -2,13 +2,13 @@ main{
     background: url(../../IMG/Hero.webp) rgb(254, 239, 230);
     background-size: cover;
     background-position: center;
-    height: 90dvh;
+    height: 100dvh;
     width: 100%;
     position: relative;
 }
 .now{
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%,-50%);    
     text-align: center;

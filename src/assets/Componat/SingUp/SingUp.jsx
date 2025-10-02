@@ -48,7 +48,7 @@ const SingUp = () => {
     }
   return (
     <section className='SingUp w-full h-svh flex justify-center items-center relative'>
-        <div className='w-1/2 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 p-5' >
+        <div className='md:w-1/2 w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 p-5' >
             <h1 className='text-center text-3xl font-bold mb-5 uppercase text-orange-600'>Sing Up</h1>
             <form className='flex flex-col justify-center items-center gap-5 w-full' action="">
                 <label htmlFor="name">
@@ -71,7 +71,7 @@ const SingUp = () => {
                 {error && <p className="error text-red-500 text-xl capitalize">{error}</p>}
                 <button type="submit" className='px-5 py-2 rounded-lg bg-orange-600 text-white font-bold uppercase' onClick={handleSubmit}>Sing Up</button>
                 {success && <p className="success text-green-500 text-xl capitalize">{success}</p>}
-                <a className='text-lg text-blue-400 underline cursor-pointer' onClick={ToLogin("/Login")}>I have account</a>
+                <a className='text-lg text-blue-400 underline cursor-pointer' onClick={ () => ToLogin("/Login")}>I have an account</a>
             </form>
         </div>
     </section>

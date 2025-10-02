@@ -8,6 +8,7 @@ const Login = () => {
     const [success, setSuccess] = useState('');
     const [error, setError] = useState('');
     const ToHome = useNavigate();
+    const ToSingUp = useNavigate();
     
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -29,7 +30,7 @@ const Login = () => {
     }
   return (
     <section className='Login w-full h-svh flex justify-center items-center relative'>
-        <div className='w-1/2 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 p-5' >
+        <div className='md:w-1/2 w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 p-5' >
             <h1 className='text-center text-3xl font-bold mb-5 uppercase text-orange-600'>Login</h1>
             <form className='flex flex-col justify-center items-center gap-5 w-full' action="">
                 <label htmlFor="email">
@@ -43,6 +44,7 @@ const Login = () => {
                 {error && <p className="error text-red-500 text-xl capitalize">{error}</p>}
                 <button type="submit" className='px-5 py-2 rounded-lg bg-orange-600 text-white font-bold uppercase' onClick={handleSubmit}>Login</button>
                 {success && <p className="success text-green-500 text-xl capitalize">{success}</p>}
+                <a className='text-lg text-blue-400 underline cursor-pointer' onClick={() => ToSingUp("/SingUp")}>I don't have an account</a>
             </form>
         </div>
     </section>
