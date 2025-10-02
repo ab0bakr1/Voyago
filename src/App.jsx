@@ -6,6 +6,7 @@ import DetailsPage from './assets/pages/DetailsPage'
 import NoPage from './assets/pages/NoPage'
 import SingUpPage from './assets/pages/SingUpPage'
 import LoginPage from './assets/pages/LoginPage'
+import SearchPage from './assets/pages/SearchPage'
 
 export default function App() {
   return (
@@ -15,7 +16,8 @@ export default function App() {
       <Route path="/List" element={<Menu />} />
       <Route path="/SingUp" element={<SingUpPage />} />
       <Route path="/Login" element={<LoginPage />} />
-
+      <Route path="/search" element={<SearchPage />} />
+      
       <Route path="/Details/:id" element={<DetailsPage />} />
       <Route path="*" element={<NoPage />} />
 
