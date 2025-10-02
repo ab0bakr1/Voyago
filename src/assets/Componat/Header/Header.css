@@ -31,12 +31,6 @@ nav ul li a.active::after{
 .auth-buttons button{
     text-transform: capitalize;
 }
-.auth-buttons .singup-btn{
-    border: 1px solid #EB662B;
-    padding: 5px 15px;
-    border-radius: 20px;
-    cursor: pointer;
-}
 .auth-buttons option {
     color: #EB662B;
     font-weight: 600;

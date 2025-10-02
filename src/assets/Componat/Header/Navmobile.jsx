@@ -1,10 +1,15 @@
 import { AnimatePresence,motion } from 'framer-motion';
 import React, { useState } from 'react'
-import Navbar from './Navbar';
 import { Link } from 'react-router-dom';
 
 const Navmobile = () => {
     const [open, setOpen] = useState(false);
+    const account = JSON.parse(localStorage.getItem('users'));
+
+  const LogOut = () => {
+    localStorage.removeItem('users');
+    window.location.href = '/';
+  }
   return (
     <div className='md:hidden'>
         <button
@@ -37,8 +42,17 @@ const Navmobile = () => {
                       </select>
                   </form>
                   <button className="help-btn">help</button>
-                  <button className="login-btn">Log in</button>
-                  <button className="singup-btn">sing up</button>
+                  {account ? 
+                  <div className="flex justify-center items-center gap-3">
+                    <button onClick={() => window.location.href = '/Account'} className="login-btn">{account[0].name.length > 10 ? account[0].name.substring(0, 10) + "..." : account[0].name}</button>
+                    <button onClick={LogOut} className="logout-btn border-2 border-orange-400 rounded-2xl px-3 hover:text-red-600">Log Out</button> 
+                  </div>
+                  : 
+                  <div className="flex justify-center items-center gap-3">
+                    <button onClick={() => window.location.href = '/Login'} className="login-btn">Log in</button>
+                    <button onClick={() => window.location.href = '/Singup'} className="singup-btn border-2 border-orange-400 rounded-2xl px-3">sing up</button>
+                  </div>
+                  }
                 </div>
             </motion.div>
         )}
